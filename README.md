@@ -1,6 +1,6 @@
 # Anagram-Palindrome-Checker
 
-### Anagram:
+<h3>Anagram:</h3>
 <ol>
   <li>Take two string inputs, which can be either a word or a phrase, and make all letters lowercase.</li>
   <li>Take both strings and put only the letters (no spaces or punctuation) of each string into separate arrays of letters/characters.</li>
@@ -31,7 +31,7 @@ Pseudo Code:
   </ul>
 </ul>                   
 
-### Palindrome:
+<h3>Palindrome:</h3>
 <ol>
   <li>Take two string inputs, which can be either a word or a phrase, and make all letters lowercase.</li>
   <li>Take both strings and put only the letters (no spaces or punctuation) of each string into separate arrays of letters/characters.</li>
@@ -59,4 +59,4 @@ Pseudo Code:
   </ul>
 </ul>
  
-### Big-O Time Complexity:  O (N log (N))
+<h3>Big-O Time Complexity:  O (N log (N))</h3>
