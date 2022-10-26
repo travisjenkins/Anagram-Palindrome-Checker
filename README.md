@@ -59,5 +59,4 @@ Pseudo Code:
   </ul>
 </ul>
  
-### Big-O Time Complexity:  
-O (N log (N))
+### Big-O Time Complexity:  O (N log (N))
