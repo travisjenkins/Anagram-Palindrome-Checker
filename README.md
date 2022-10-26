@@ -40,15 +40,24 @@ Pseudo Code:
 </ol> 
  
 Pseudo Code:
-ISPALINDROME(firstWordOrPhrase, secondWordOrPhrase):
-    SET first equal to firstWordOrPhrase (lowercase, no spaces, just letters, as list)
-    SET second equal to secondWordOrPhrase (lowercase, no spaces, just letters, as list)
-    IF first count equals second count:
-        REVERSE second order
-        JOIN first and second as strings
-        IF first equals second:
-            return True
-        ELSE:
-            return False
+<ul>
+  <li>ISPALINDROME(firstWordOrPhrase, secondWordOrPhrase):</li>
+  <ul>
+    <li>SET first equal to firstWordOrPhrase (lowercase, no spaces, just letters, as list)</li>
+    <li>SET second equal to secondWordOrPhrase (lowercase, no spaces, just letters, as list)</li>
+    <li>IF first count equals second count:</li>
+    <ul>
+      <li>REVERSE second order</li>
+      <li>JOIN first and second as strings</li>
+      <li>IF first equals second:</li>
+      <ul><li>return True</li></ul>
+      <li>ELSE:</li>
+      <ul><li>return False</li></ul>
+    </ul>
+    <li>ELSE:</li>
+    <ul><li>return False</li></ul>
+  </ul>
+</ul>
  
-Big-O Time Complexity:  O (N log (N))
+### Big-O Time Complexity:  
+O (N log (N))
